@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    background: hsla(57, 96%, 51%, 0.996);
+    padding: 20px 0;
+}
+
+.caixa{
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+.nav{
+    position: absolute;
+    top: 110px;
+    right: 0:
+}
