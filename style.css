@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
 .header{
     background: hsla(57, 96%, 51%, 0.996);
     padding: 20px 0;
