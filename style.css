@@ -7,7 +7,7 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
-.header{
+header{
     background: hsla(53, 27%, 94%, 0.996);
     padding: 20px 0;
 }
@@ -41,3 +41,4 @@ nav a:hover {
     color: #c78c19;
     text-decoration: underline;
 }
+
