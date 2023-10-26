@@ -43,9 +43,58 @@
                 <label for="radio-email"><input type="radio" name="contato" value="E-mail" id="radio-email"/>E-mail</label>
 
                 <label for="radio-telefone"><input type="radio" name="contato" value="Telefone"/>Telefone</label>
+
+                <label for="radio-whatsapp"><input type="radio" name="contato" value="Whatsapp" id="radio-whatsapp" checked/>Whatsapp</label>
             </fieldset>
+
+            <fieldset>
+                <legend>Quer reservar um horário? Qual horário você gostaria de reservar?</legend>
+                <select>
+                    <option>Manhã</option>
+                    <option>Tarde</option>
+                </select>
+            </fieldset>
+
+            <label class="checkbox">
+                <input type="checkbox" checked />Gostaria de receber nossas novidades por e-mail?
+            </label>
+
+            <input type="submit" value="Enviar" class="enviar" />
         </form>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Dia</th>
+                    <th>Horário</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>Segunda à Sexta</td>
+                    <td>Manhã</td>
+                    <td>7h às 9h</td>
+                </tr>
+
+                <tr>
+                    <td>Segunda à Sexta</td>
+                    <td>Tarde</td>
+                    <td>15h às 17h</td>
+                </tr>
+
+                <tr>
+                    <td>Sábados</td>
+                    <td>8h às 10h</td>
+                </tr>
+            </tbody>
+        </table>
     </main>
+
+    <footer>
+        <img src="img/logo.png">
+        <p class="copyrigth">&copy; Copyrigth Cafeteria Alura - 2023</p>
+    </footer>
     
 </body>
 </html>
